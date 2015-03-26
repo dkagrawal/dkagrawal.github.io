@@ -76,8 +76,11 @@ body{
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
 img {
+	position:absolute;
+	top:5%;
+	right: 2%;
 	float:right;
-	height:600px;
-	width:100px;
+	height:375px;
+	width:300px;
 }
 }

@@ -135,6 +135,7 @@ color: #333;
      float:left;
      width:45%;
      margin-left:4%;
+     color: #0000a0;
 }
 
 #p2 {
@@ -145,6 +146,7 @@ color: #333;
     float:right;
     width:40%;
     margin-right:2%;
+    color:#728c00;
 }
 #grand {
     font-size:50px;

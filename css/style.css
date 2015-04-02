@@ -156,17 +156,5 @@ color: #333;
     background-image:url(download.jpg);
     background-size: 100% 100%;
 }
-#hide1 {
-	display: none;
-}
-#hide2 {
-	display: none;
-}
-#p1:hover > #hide1 {
-	display: block;
-	font-weight:bold;
-}
-#p2:hover > #hide2 {
-	display: block;
-	font-weight:bold;
-}
+
+

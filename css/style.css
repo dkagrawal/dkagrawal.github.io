@@ -116,7 +116,6 @@ hr {
 }
 #interests {
   width: 100%;
-  background-color: #157dec;
   margin-bottom:0px;
   float:left;
 }
@@ -132,7 +131,7 @@ font-size: 24px;
 list-style-image: url("list.png");
 display: block;
 padding: 2px 2px 2px 24px;
-background-color: #800517;
+background-color: #c58917;
 }
 #interests li:hover
 {background-color: #806517;

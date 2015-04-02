@@ -156,6 +156,7 @@ color: #333;
     margin-top:55px;
 }
 #pdiv {
+	float:left;
     background-image:url(download.jpg);
-    clear:both;
+    
 }

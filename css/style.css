@@ -134,7 +134,7 @@ color: #333;
     font-weight:500;
      float:left;
      width:45%;
-     margin-left:5%;
+     margin-left:4%;
 }
 
 #p2 {
@@ -148,11 +148,26 @@ color: #333;
 }
 #grand {
     font-size:50px;
-    margin-left:40%;
+    margin-left:38%;
     margin-top:55px;
 }
 #pdiv {
 	float:left;
     background-image:url(download.jpg);
     background-size: 100% 100%;
+}
+#hide1 {
+	visibility: hidden;
+}
+#hide2 {
+	visibility: hidden;
+}
+}
+#p2:hover > #hide1 {
+	visibility:visible;
+	font-weight:bold;
+}
+#p2:hover > #hide2 {
+	visibility:visible;
+	font-weight:bold;
 }

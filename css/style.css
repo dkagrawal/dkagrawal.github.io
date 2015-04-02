@@ -127,25 +127,27 @@ background-color: #F60;
 color: #333;
 }
 #pp1{
+    
+}
+#p1 {
+    font-family:allura;
+    line-height:30px;
+    font-weight:200;
      float:left;
      width:45%;
      margin-left:4%;
 }
-#p1 {
-    font-family:blackjack;
-    line-height:30px;
-    font-weight:200;
-}
 #pp2 {
-    float:right;
-    width:40%;
-    margin-right:4%;
+    
 }
 #p2 {
     
-    font-family:blackjack;
+    font-family:allura;
     line-height:30px;
     font-weight:200;
+    float:right;
+    width:40%;
+    margin-right:4%;
 }
 #grand {
     font-size:50px;

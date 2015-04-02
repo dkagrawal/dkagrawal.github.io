@@ -7,6 +7,10 @@ body {
     font-family: Pacifico;
     src: url(Pacifico.ttf);
 }
+@font-face {
+    font-family: Allura;
+    src: url(Allura-Regular.ttf);
+}
 #header {
    
     height: 50px;
@@ -139,7 +143,7 @@ color: #333;
 }
 
 #p1 {
-    font-family:allura;
+    font-family:Allura;
     line-height:30px;
     font-size:20px;
     font-weight:500;
@@ -150,7 +154,7 @@ color: #333;
 
 #p2 {
     font-size:20px;
-    font-family:allura;
+    font-family:Allura;
     line-height:30px;
     font-weight:500;
     float:right;

@@ -157,17 +157,16 @@ color: #333;
     background-size: 100% 100%;
 }
 #hide1 {
-	visibility: hidden;
+	display: none;
 }
 #hide2 {
-	visibility: hidden;
+	display: none;
 }
-}
-#p2:hover > #hide1 {
-	visibility:visible;
+#p1:hover > #hide1 {
+	display: block;
 	font-weight:bold;
 }
 #p2:hover > #hide2 {
-	visibility:visible;
+	display: block;
 	font-weight:bold;
 }

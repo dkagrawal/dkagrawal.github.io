@@ -1,6 +1,6 @@
 #b {
 	background-image: url(abstract-background-14.jpg);
-	background-repeat:none;
+	background-size:100% 100%;
 }
 @font-face {
     font-family: Pacifico;
@@ -142,7 +142,7 @@ color: #333;
 }
 
 #p1 {
-    font-family:Pacifico;
+    font-family:arial;
     line-height:30px;
     font-size:20px;
     font-weight:500;
@@ -153,7 +153,7 @@ color: #333;
 
 #p2 {
     font-size:20px;
-    font-family:Pacifico;
+    font-family:arial;
     line-height:30px;
     font-weight:500;
     float:right;

@@ -154,5 +154,5 @@ color: #333;
 #pdiv {
 	float:left;
     background-image:url(download.jpg);
-    background-size: 100% 60px;
+    background-size: 100% 50%;
 }

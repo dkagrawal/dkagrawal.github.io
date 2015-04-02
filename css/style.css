@@ -1,3 +1,8 @@
+body {
+	background-image: url(abstract-background-14.jpg);
+	background-repeat:none;
+	background-size:100% 50%;
+}
 #header {
    
     height: 50px;

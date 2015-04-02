@@ -3,6 +3,10 @@ body {
 	background-repeat:none;
 	background-size:100% 50%;
 }
+@font-face {
+    font-family: Pacifico;
+    src: url(Pacifico.ttf);
+}
 #header {
    
     height: 50px;
@@ -59,6 +63,7 @@ background: black;
     margin-top:40px;
     color:#25383c;
     font-weight:bold;
+    font-family: Pacifico;
     font-size:30px;
     float:right;
     max-width:75%;

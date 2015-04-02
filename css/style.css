@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: Pacifico;
-    src: url(Pacifico.ttf);
+    src: url(Allura-Regular.ttf);
 }
 @font-face {
     font-family: Allura;
@@ -185,7 +185,7 @@ display: inline;
 height:35px;
 width:35px;
 margin-left:28px;
-margin-top:35px;
+margin-top:25px;
 float:left;
 }
 footer p {

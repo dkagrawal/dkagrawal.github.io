@@ -134,7 +134,7 @@ color: #333;
     font-weight:500;
      float:left;
      width:45%;
-     margin-left:7%;
+     margin-left:5%;
 }
 
 #p2 {
@@ -144,11 +144,11 @@ color: #333;
     font-weight:500;
     float:right;
     width:40%;
-    margin-right:0%;
+    margin-right:2%;
 }
 #grand {
     font-size:50px;
-    margin-left:44%;
+    margin-left:40%;
     margin-top:55px;
 }
 #pdiv {

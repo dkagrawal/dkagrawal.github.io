@@ -174,8 +174,10 @@ display: inline;
 height:35px;
 width:35px;
 margin-left:28px;
+margin-top:15px;
 }
 footer p {
 	text-align:right;
+	margin-right:10px;
 }
 }

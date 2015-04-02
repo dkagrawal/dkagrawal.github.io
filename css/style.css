@@ -113,10 +113,11 @@ hr {
 {
 margin: 0;
 padding: 0;
-list-style-image: url(" 69c6c111538c4ddf33f324fa23afb9ef.png");
+list-style-image: url("list.png");
 font-size: 24px;
 }
-#interests li {
+#interests ul li {
+list-style-image: url("list.png");
 display: block;
 padding: 2px 2px 2px 24px;
 background-color: #157dec;
@@ -154,7 +155,7 @@ color: #333;
     text-align:center;
     margin-top:55px;
 }
-#p {
+#pdiv {
     background-image:url(download.jpg);
-    clear:left;
+    clear:both;
 }

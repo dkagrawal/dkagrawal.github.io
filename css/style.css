@@ -1,6 +1,5 @@
 #b {
 	background-image: url(abstract-background-14.jpg);
-	background-size:100% 100%;
 }
 @font-face {
     font-family: Pacifico;
@@ -167,8 +166,6 @@ color: #333;
 }
 #pdiv {
 	float:left;
-    background-image:url(download.jpg);
-    background-size: 100% 100%;
 }
 footer {
 clear:both;

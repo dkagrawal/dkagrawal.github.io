@@ -136,7 +136,6 @@ color: #333;
      float:left;
      width:45%;
      margin-left:4%;
-     color: #157dec;
 }
 
 #p2 {
@@ -158,5 +157,7 @@ color: #333;
     background-image:url(download.jpg);
     background-size: 100% 100%;
 }
-
+#footer {
+	
+}
 

@@ -113,10 +113,11 @@ hr {
 {
 margin: 0;
 padding: 0;
-list-style-image: url(" 69c6c111538c4ddf33f324fa23afb9ef.png");
+list-style-image: url("list.png");
 font-size: 24px;
 }
-#interests li {
+#interests ul li {
+list-style-image: url("list.png");
 display: block;
 padding: 2px 2px 2px 24px;
 background-color: #157dec;
@@ -126,35 +127,51 @@ background-color: #157dec;
 background-color: #F60;
 color: #333;
 }
-#pp1{
-    
-}
+
 #p1 {
     font-family:allura;
     line-height:30px;
-    font-weight:200;
+    font-size:20px;
+    font-weight:500;
      float:left;
      width:45%;
      margin-left:4%;
 }
-#pp2 {
-    
-}
+
 #p2 {
-    
+    font-size:20px;
     font-family:allura;
     line-height:30px;
-    font-weight:200;
+    font-weight:500;
     float:right;
     width:40%;
-    margin-right:4%;
+    margin-right:2%;
 }
 #grand {
     font-size:50px;
-    text-align:center;
+    margin-left:37%;
     margin-top:55px;
 }
-#p {
+#pdiv {
+	float:left;
     background-image:url(download.jpg);
-    clear:left;
+    background-size: 100% 100%;
+}
+#footer {
+	
+}
+#footer li
+{
+list-style: none;
+display: inline;
+padding-left: 5px;
+}
+
+#footer li a
+{
+padding: 0.25em 0.5em 0.25em 0.75em;
+background: #ccccdd;
+margin-left:20px;
+text-decoration: none;
+color:black;
 }

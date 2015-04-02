@@ -131,6 +131,7 @@ color: #333;
 #p1 {
     font-family:allura;
     line-height:30px;
+    font-size:30px;
     font-weight:500;
      float:left;
      width:45%;
@@ -139,14 +140,14 @@ color: #333;
 }
 
 #p2 {
-    
+    font-size:30px;
     font-family:allura;
     line-height:30px;
     font-weight:500;
     float:right;
     width:40%;
     margin-right:2%;
-    color:#728c00;
+    color:#000080;
 }
 #grand {
     font-size:50px;

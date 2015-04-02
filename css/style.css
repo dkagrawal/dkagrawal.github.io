@@ -113,7 +113,7 @@ hr {
 {
 margin: 0;
 padding: 0;
-list-style-image: url("http://th06.deviantart.net/fs51/150/f/2009/333/6/9/69c6c111538c4ddf33f324fa23afb9ef.png");
+list-style-image: url(" 69c6c111538c4ddf33f324fa23afb9ef.png");
 font-size: 24px;
 }
 #interests li {
@@ -154,4 +154,5 @@ color: #333;
 }
 #p {
     background-image:url(download.jpg);
+    clear:left;
 }

@@ -50,8 +50,13 @@ color: white;
 background: black;
 }
 #myinfo p{
-    display: block;
-    clear: left;
+    display: inline;
+    margin-top:40px;
+    color:grey;
+    font-weight:bold;
+    font-size:30px;
+    float:right;
+    max-width:75%;
 }
 #image img {
     margin-top:10px;
@@ -64,5 +69,25 @@ background: black;
 }
 hr {
     margin-top: 50px;
-    width:90%;
+    width:80%;
 }
+#circle {
+	position: relative;
+	display: inline-block;
+	margin-left:100px;
+	margin-right:30px;
+	height: 175px;
+	width: 175px;
+	border-radius: 100%;
+	border: 2px solid white;
+	margin-top: 25px;
+	text-align: center;
+	background-color: #157dec;
+}
+#circle h2 {
+    padding-top:35px;
+    font-weight:bold;
+    color:white;
+}
+    
+

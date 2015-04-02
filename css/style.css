@@ -158,7 +158,6 @@ color: #333;
     background-size: 100% 100%;
 }
 footer {
-background-color:gray;
 clear:both;
 }
 footer li
@@ -172,7 +171,11 @@ footer li a img
 {
 padding: 0.25em 0.5em 0.25em 0.75em;
 display: inline;
-height:28px;
-width:28px;
-margin-left:20px;
+height:35px;
+width:35px;
+margin-left:28px;
+}
+footer p {
+	text-align:right;
+}
 }

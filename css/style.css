@@ -67,7 +67,7 @@ background: black;
     margin-top:40px;
     color:#25383c;
     font-weight:bold;
-    font-family: Pacifico;
+    font-family: Allura;
     font-size:30px;
     float:right;
     max-width:75%;
@@ -143,7 +143,7 @@ color: #333;
 }
 
 #p1 {
-    font-family:Allura;
+    font-family:Pacifico;
     line-height:30px;
     font-size:20px;
     font-weight:500;
@@ -154,7 +154,7 @@ color: #333;
 
 #p2 {
     font-size:20px;
-    font-family:Allura;
+    font-family:Pacifico;
     line-height:30px;
     font-weight:500;
     float:right;

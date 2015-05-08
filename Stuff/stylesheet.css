@@ -9,7 +9,7 @@ a:hover, .footer a:hover {
 	color: #111;
 }
 body {	
-	background: #769359 url(stuff/bg.jpg) repeat-y center top;
+	background: #769359 url(bg.jpg) repeat-y center top;
 	color: #443;
 	margin: 0;
 }
@@ -21,7 +21,7 @@ h1 {
 	font: normal 1.2em "Lucida Sans Unicode",sans-serif;
 }
 .divider {
-	background: url(stuff/divider.gif) no-repeat;
+	background: url(divider.gif) no-repeat;
 	height: 24px;
 	margin: 16px 0;
 }
@@ -36,7 +36,7 @@ h1 {
 
 /* header */
 .header {
-	background: #597F93 url(stuff/header.jpg) no-repeat center top;
+	background: #597F93 url(header.jpg) no-repeat center top;
 	border-bottom: 1px solid #CCC;
 	height: 180px;
 	text-align: center;

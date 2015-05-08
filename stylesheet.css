@@ -9,7 +9,11 @@ a:hover, .footer a:hover {
 	color: #111;
 }
 body {	
+<<<<<<< HEAD:Stuff/stylesheet.css
 	background: #769359 url(bg.jpg) repeat-y center top;
+=======
+	background: #769359 url(Stuff/bg.jpg) repeat-y center top;
+>>>>>>> b05b1f4b2d4e0074f69b338958021b42e962594e:stylesheet.css
 	color: #443;
 	margin: 0;
 }
@@ -21,7 +25,11 @@ h1 {
 	font: normal 1.2em "Lucida Sans Unicode",sans-serif;
 }
 .divider {
+<<<<<<< HEAD:Stuff/stylesheet.css
 	background: url(divider.gif) no-repeat;
+=======
+	background: url(Stuff/divider.gif) no-repeat;
+>>>>>>> b05b1f4b2d4e0074f69b338958021b42e962594e:stylesheet.css
 	height: 24px;
 	margin: 16px 0;
 }
@@ -36,7 +44,11 @@ h1 {
 
 /* header */
 .header {
+<<<<<<< HEAD:Stuff/stylesheet.css
 	background: #597F93 url(header.jpg) no-repeat center top;
+=======
+	background: #597F93 url(Stuff/header.jpg) no-repeat center top;
+>>>>>>> b05b1f4b2d4e0074f69b338958021b42e962594e:stylesheet.css
 	border-bottom: 1px solid #CCC;
 	height: 180px;
 	text-align: center;

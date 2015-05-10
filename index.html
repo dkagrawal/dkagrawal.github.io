@@ -1,29 +1,126 @@
-<html>
-<head>
+<!DOCTYPE html>
+<head>  
 <title>Dishank Agrawal</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css" >
+<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
+
 <body>
-<div class="header">
-  <h1>Dishank Agrawal</h1>
-</div>
-<div class="navigation"><a href="#">Home</a> <a href="#"> Interests</a> <a href="#">Education</a> <a href="#">Skills</a><a href="#">Contact me </a>
-  <div class="clearer"><span></span></div>
-</div>
-<div class="container">
-  <div class="content">
-    <h1>About me</h1>
-    <p>My name is Dishank Agrawal.I am 18,currently first year undergraduate student in Indian Institute of Technology, Kharagpur. My course here is Computer Science & Engg Dual 5 yr Course. </p>
-    <p>I come from a town named as Takhatpur(which is also a tehsil/sub district).It is a small,peaceful town located in the North-western part of Chhattisgarh.</p>
-    <p> </p>
-    <div class="divider"></div>
-    <h1>From the past</h1>
-    <p>Growing up,I spent the majority of my time with my huge family(total no. of members in my family were 17).My family had wholesale business of selling various edible and daily-use commodities.Being a child in religious family,i vividly remember the happiness & enthusiasm with which we celebrated all festivals and traditions.Be it popular festivals like Diwali or unknown occassions like Baseda(Sheetla Ashtami),I enjoyed spending every moment doing various rituals,having fun with my cousins and most of all eating variety of dishes!!  </p>
-    <div class="divider"></div>
-    <p>If you want to know more about me,check out<a href="#"> my resume </a> or browse through this site.
-   
-      <div class="footer"> <a href="#">Facebook</a>&amp;<a href="http://jigsaw.w3.org/css-validator/check/referer">Github</a>&amp;<a href="http://validator.w3.org/check?uri=referer">Linkedin</a> <a href="http://templates.arcsin.se"></a>&amp;<a href="#">Google+</a>
-    </div>
-</div>
+
+    <header>     
+    	<div id="headercontainer">
+    
+    		<h1><a href="#intro">My Homepage</a></h1>
+    		
+    		<nav>
+    			<ul>
+    				<li><a href="#intro">Intro</a></li>
+    				<li><a href="#portfolio">Skills</a></li>
+    				<li><a href="#about">About</a></li>
+    				<li><a href="#contact">Contact me</a></li>
+    			</ul>				
+    		</nav>
+    	
+    	</div>
+    
+    </header>
+    <section id="contentcontainer">
+    
+    	<section id="intro">
+    	<img src="images/me.jpg">
+    		<h2 class="intro">Hello everyone. I'm <strong>Dishank Agrawal</strong>. <span class="sub">Thank you for taking out time to visit my online world.!</span></h2><br>
+    				
+    	</section>
+
+    	<section id="portfolio">
+    	
+    		<h2 class="skills"><u>My Skills</u></h2>
+    		
+		<p><b>Knowledge of Software Applications: </b></p>
+			<ul class="skills">
+    			<li>
+    			<img src="images/office.jpg" />
+    			</li>
+    			<li>
+    			<img src="images/photoshop.jpg" />
+    			</li>
+    			<li>
+    			<img src="images/unity.png" />
+    			</li>
+			</ul>
+		<p><b>Working with programming languages: </b></p>
+			<ul class="skills">
+    			<li>
+    			<img src="images/c.jpg" />
+    			</li>
+    			<li>
+    			<img src="images/python.jpg" />
+    			</li>
+    			<li>
+    			<img src="images/java.jpg" />
+    			</li>
+			</ul>
+		
+		<p><b>Web designing: </b></p>
+			<ul class="skills">
+    			<li>
+    			<img src="images/html.jpg" />
+    			</li>
+    			<li>
+    			<img src="images/css.png" />
+    			</li>
+    			<li>
+    			<img src="images/javascript.png" />
+    			</li>
+			</ul>
+    		</ul>
+    				
+    	</section>
+    			
+    	<section id="about">
+    	
+    		<h2 class="about"><u>About Me </u></h2>
+    		
+    		<p>My name is Dishank Agrawal.I am 18,currently first year undergraduate student in Indian Institute of Technology, Kharagpur. My course here is Computer Science & Engg Dual 5 yr Course.
+
+I come from a town named as Takhatpur(which is also a tehsil/sub district).It is a small,peaceful town located in the North-western part of Chhattisgarh.
+Growing up,I spent the majority of my time with my family.My family had wholesale business of selling various edible and daily-use commodities.Being a child in religious family,i vividly remember the happiness & enthusiasm with which we celebrated all festivals and traditions.Be it popular festivals like Diwali or unknown occassions like Baseda(Sheetla Ashtami),I enjoyed spending every moment doing various rituals,having fun with my cousins and most of all eating variety of dishes!!</p>
+    	
+    	</section>
+    			
+    	<section id="contact">
+    	
+    		<h2 class="contact"><u>Contact Me</u></h2>
+    		
+    		<p>If you want to talk to me,feel free to send me a message.You can also contact me through various social website links provided at the end of the page.</p>
+    		
+    		<form>
+
+    			<p>Name</p> 
+    			<input type="text" placeholder="First and last name"/> 
+    			 
+    			<p>Email</p> 
+    			<input type="text" placeholder="example@domain.com" /> 
+    			 
+    			<p>Your Message</p><textarea name="message"></textarea>
+    			<input name="submit" type="submit" value="Send Message" />
+    			 
+    		</form> 
+
+    	
+    	</section>
+    			
+    	<footer>
+    	
+    		<ul>
+    			<li><a href="http://facebook.com/da125">Add me on Facebook</a></li>
+    			<li><a href="https://github.com/dkagrawal/">Visit my github page</a></li>
+			<li><a href="https://plus.google.com/117333536783689742932">Follow me on Google+ </a>
+    		</ul>
+    	
+    	</footer>	
+    
+    </section>
+    
 </body>
+
 </html>

@@ -4,11 +4,11 @@ header, section, #footer, #nav, {
 	display: block;
 }
 
-@font-face { font-family: Keffeesatz; src: url(YanoneKaffeesatz-Light.otf) format("opentype") }
+@font-face { font-family: Kef; src: url(YanoneKaffeesatz-Light.otf) }
 
-@font-face { font-family: KeffeesatzBold; src: url(YanoneKaffeesatz-Bold.otf) format("opentype") }
+@font-face { font-family: Keffb; src: url(YanoneKaffeesatz-Bold.otf) }
 
-body { font-family: Keffeesatz, Arial; color: #4b4b4b; background: url(images/pattern.gif); }
+body { font-family: Kef; color: #4b4b4b; background: url(images/pattern.gif); }
 
 h1 { color: #fff; 
 font-size: 40px; 
@@ -57,7 +57,7 @@ top: 1px; }
 p { font-size: 24px;
  margin-bottom: 15px;
  line-height: 36px; }
-strong { font-family: KeffeesatzBold, Arial; }
+strong { font-family: Keffb; }
 
 header { padding: 5px 0; width: 100%; background-color: #000; margin-bottom: 25px; position: fixed; z-index: 10; float: left; }
 
@@ -102,18 +102,11 @@ float: left;
 border: 5px solid #7ac000; 
 }
 
-#portfolio .skills img:active { box-shadow: 0px 0px 10px black; }
-
-#portfolio ul.skill li{list-style: url(images/list.gif);}
-#portfolio ul.skills { border-bottom: none; }
-
 #portfolio ul.skills img { border: 5px solid grey;border-radius: 5px;height:200px; width: 300px;}
 
 #portfolio ul.skills { float: left; margin-left: -15px; width: 975px;  }
 
 #portfolio ul.skills li { list-style: none; float: left; margin-left: 15px; margin-bottom: 15px; }
-
-#contact { margin-bottom: 0px; }
 
 b {
 color:#7ac000;

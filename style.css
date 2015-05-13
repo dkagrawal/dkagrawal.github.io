@@ -1,7 +1,6 @@
 * { margin: 0; padding: 0; outline: 0; }
 
-header, section, footer,
-aside, nav, article, figure {
+header, section, #footer, #nav, {
 	display: block;
 }
 
@@ -15,6 +14,7 @@ h1 { color: #fff;
 font-size: 40px; 
 position: relative; 
 top: 15px; }
+
 h1 a { color: #fff; 
 font-size: 40px; 
 background-color: #ff5400; 
@@ -68,24 +68,24 @@ float: none;
 padding-top: 0px; 
 }
 
-nav { 
+#nav { 
 width: auto; 
 float: left; 
 }
 
-nav ul { 
+#nav ul { 
 position: absolute;
 right: 0;
 display: block; 
 margin-top: -37px;
  }
 
-nav ul li { 
+#nav ul li { 
 display: inline; 
 margin-left: 50px; 
 }
 
-nav ul li a { 
+#nav ul li a { 
 font-size: 24px; 
 border-bottom: none; 
 }
@@ -98,7 +98,7 @@ float: left;
 
 #intro img { border: 5px solid grey;border-radius: 100%; margin-top: 40px; margin-left: 0px; position:relative; left: 0 px;}
 
-#intro img:hover,#portfolio .skills img:hover, input:hover, textarea:hover { 
+#intro img:hover,#portfolio .skills img:hover{ 
 border: 5px solid #7ac000; 
 }
 
@@ -115,54 +115,27 @@ border: 5px solid #7ac000;
 
 #contact { margin-bottom: 0px; }
 
-input[type="text"] { width: 400px; }
-
-textarea { width: 750px; height: 275px; }
-
-form p { color: #ff5400; }
-
 b {
 color:#7ac000;
 font-size:26px;
 }
 
-input, textarea { border: 5px solid grey; 
-padding: 10px; 
-font-family: Keffeesatz, Arial; 
-color: #4b4b4b; 
-font-size: 24px;
-border-radius: 5px;
-margin-bottom: 15px; 
-margin-top: -10px; 
-}
-
-input:focus, textarea:focus { border: 5px solid #ff5400; background-color: #fff; }
-
-input[type="submit"] { border: none; cursor: pointer; color: #fff; font-size: 24px; background-color: #7ac000; padding: 5px 36px 8px 36px; border-bottom: 1px solid black; border-top: 1px solid white;
-	
-}
-
-input[type="submit"]:hover { color: #fff; border-bottom: 1px solid black; background-color: #ff5400;
-}
-
-input[type="submit"]:active { position: relative; top: 1px; }
-
-footer { 
+#footer { 
 float: left;
 margin-top: 50px; 
 }
-footer ul { 
+#footer ul { 
 margin-bottom: 150px; 
 }
-footer ul li { 
+#footer ul li { 
 display: inline; 
 margin-right: 50px; 
 }
-footer ul li a { 
+#footer ul li a { 
 font-size: 24px; 
 margin-left: 10px; 
 }
-footer ul li img { 
+#footer ul li img { 
 vertical-align: bottom;
 position: relative; 
 top: 2px; 

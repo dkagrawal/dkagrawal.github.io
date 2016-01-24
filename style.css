@@ -96,7 +96,7 @@ padding-top: 150px;
 float: left; 
 }
 
-#intro img { border: 5px solid grey;border-radius: 100%; margin-top: 40px; margin-left: 0px; position:relative; left: 0 px;}
+#intro img { border: 5px solid grey;height:100px;border-radius: 100%; margin-top: 40px; margin-left: 0px; position:relative; left: 0 px;}
 
 #intro img:hover,#portfolio .skills img:hover{ 
 border: 5px solid #7ac000; 
